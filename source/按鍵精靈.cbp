@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="按鍵精靈" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="按鍵精靈" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+		</Compiler>
+		<Unit filename="OutputStastic.cpp" />
+		<Unit filename="OutputStastic.hpp" />
+		<Unit filename="compress.cpp" />
+		<Unit filename="compress.hpp" />
+		<Unit filename="definition.hpp" />
+		<Unit filename="icon.hpp" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="linkedList.cpp" />
+		<Unit filename="linkedList.hpp" />
+		<Unit filename="myNamespace.hpp" />
+		<Unit filename="mySort.cpp" />
+		<Unit filename="mySort.hpp" />
+		<Unit filename="play.cpp" />
+		<Unit filename="play.hpp" />
+		<Unit filename="record.cpp" />
+		<Unit filename="record.hpp" />
+		<Unit filename="win32main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

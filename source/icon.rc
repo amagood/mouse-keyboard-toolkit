@@ -1,0 +1,4 @@
+#include "icon.hpp"
+APPICON ICON "icon\\icon.ico"
+IDI_ICON ICON "icon\\icon.ico"
+// resource of the icons
